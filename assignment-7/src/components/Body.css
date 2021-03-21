@@ -1,0 +1,23 @@
+.player-container{
+    display:flex;
+}
+.random-player{
+    /* border-radius: 10px; */
+    width:70%;
+    border:3px solid red;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+.selected-player{
+    width:30%;
+    border:3px solid black;
+    text-align: center;
+}
+.random-player img{
+    width:200px;
+    height:200px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    
+}
